@@ -9,16 +9,16 @@ function App() {
     <div className="container">
       <h2>My Simple React App</h2>
 
-      <button onClick={() => openUrl("https://google.com")}>
-        Open Google
+      <button onClick={() => openUrl("https://vidssave.com/facebook")}>
+        FaceBook Video Download
       </button>
 
-      <button onClick={() => openUrl("https://youtube.com")}>
-        Open YouTube
+      <button onClick={() => openUrl("https://vidssave.com/yt")}>
+        YouTube Video Download
       </button>
 
-      <button onClick={() => openUrl("https://github.com")}>
-        Open GitHub
+      <button onClick={() => openUrl("https://vidssave.com/ins")}>
+        Insta Video Download
       </button>
     </div>
   );
